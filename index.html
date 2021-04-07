@@ -437,6 +437,15 @@ var _hmt = _hmt || [];
 <script src="assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
+/*
+        下面一段script代码可以半自动调整侧边栏的日期显示
+        行政部创始于2014年6月1日
+        所以当前年-2014即得到行政部现在是第几年
+        由于计算第几周的时候需要参考校历
+        所以每学期都需要负责人对个别数据进行修改
+        d2的年月日需要设置为本学期第一周之前的那个周日
+        后续负责人有更好的解决方案欢迎改进~
+*/
 <script type="text/javascript">
     showTime();
     function showTime(){
