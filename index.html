@@ -437,6 +437,15 @@ var _hmt = _hmt || [];
 <script src="assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
+<!--
+        下面一段script代码可以半自动调整侧边栏的日期显示
+        行政部创始于2014年6月1日
+        所以当前年-2014即得到行政部现在是第几年
+        由于计算第几周的时候需要参考校历
+        所以每学期都需要负责人对个别数据进行修改
+        d2的年月日需要设置为本学期第一周之前的那个周日
+        后续负责人有更好的解决方案欢迎改进~
+-->
 <script type="text/javascript">
     showTime();
     function showTime(){
@@ -451,9 +460,10 @@ var _hmt = _hmt || [];
         var xz=y-2014+1;//计算行政历
         var d1 = new Date();//d1 获取当前时间
         var d2 = new Date();
-        d2.setFullYear(2019);
-        d2.setMonth(8); //月份是0-11,0为1月，以此类推
-        d2.setDate(8); //d2 为该学期第0周周日
+        //每学期都需要在这里设置一下开学日期
+        d2.setFullYear(2021);
+        d2.setMonth(1); //春季学期填写“1”，秋季学期填写“8”，因为月份是0-11,0为1月，以此类推
+        d2.setDate(21); //d2 为该学期第0周周日
         var rq = d1-d2;
         var n1 = Math.ceil(rq/(24*60*60*1000));
         var n2 = Math.ceil(n1/7);//计算第几周

@@ -24,6 +24,7 @@
 | 2018.5.30  |因业务需要，便签笔记和微云无法解决业务变动问题，[本网站](https://affairs-group.github.io/)正式上线，成为业务更新展示平台。 | [王博](https://github.com/wangbo-sjtu)|
 | 2018.9.9  | [行政事务部系列网站](xingzhengbu.group)内部功能部分调试完成，拟投入使用，业务网站进一步优化，重新上线。| [王博](https://github.com/wangbo-sjtu)|
 |2018.10.4|业务小组网站部分换届完成，第二届负责人上任。|[张西珩](https://github.com/EvoEcho)<br/>[孙祥宇](https://github.com/sunxiangyudiyi)|
+|2021.4|网站负责人换届完成，第三届上任。|陈哲|
 
 联系我们  
 -----
